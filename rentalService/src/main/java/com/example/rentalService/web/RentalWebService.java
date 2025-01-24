@@ -19,6 +19,11 @@ public class RentalWebService {
         return "Bonjour !";
     }
     
+    @GetMapping("/bonjour_new")
+    public String disBonjour() {
+        return "ReBonjour !";
+    }
+    
     @GetMapping("/cars/rentalNumber")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
