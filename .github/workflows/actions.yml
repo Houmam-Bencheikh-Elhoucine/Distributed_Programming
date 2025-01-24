@@ -27,6 +27,7 @@ jobs:
 
       # Step 4: Build the Docker image
       - name: Build Docker image
+        working-directory: rentalService
         run: |
           docker build -t rental-service:latest -f rentalService/Dockerfile .
 
