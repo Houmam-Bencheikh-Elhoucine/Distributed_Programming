@@ -20,7 +20,7 @@ public class RentalWebService {
     }
     
     @GetMapping("/bonjour_new")
-    public String disBonjour() {
+    public String disReBonjour() {
         return "ReBonjour !";
     }
     
